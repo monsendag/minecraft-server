@@ -1,5 +1,5 @@
 
-# Base system is the LTS version of Ubuntu.
+# base from Dockerfile/java (using Oracle Java 8)
 FROM dockerfile/java:oracle-java8
 
 # add server script
