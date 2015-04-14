@@ -1,6 +1,6 @@
 
 # base from Dockerfile/java (using Oracle Java 8)
-FROM dockerfile/java:oracle-java8
+FROM java:8
 
 # add server script
 ADD server.sh /server.sh
